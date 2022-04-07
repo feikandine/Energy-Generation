@@ -1,0 +1,36 @@
+body{
+    background-color: #f3aC3C;
+    flex-wrap: wrap
+}
+.principalbox{
+   margin: 20px
+}
+.Grandbox{
+background-color: #1a4341;
+height:200px ;
+width: 200px;
+position: relative;
+top: 100px;
+margin: auto               ;
+
+
+}
+ .Moyenbox{
+ background: #998235;
+ width: 100px;
+ height: 100px;
+ position: relative;
+ top: 0px;
+ bottom: 0px;
+ margin: auto;
+} 
+.petitbox{
+    background:#f3aC3C;
+    width: 50px;
+    height: 50px;
+    position: relative; 
+    margin: auto;
+    bottom: 50px;
+}
+
+

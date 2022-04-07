@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="fefe3.css">
+    
+</head>
+
+<body">
+    <h2>Formulaire DWWM</h2>
+    
+    <form>
+        <div>
+        <label for="name" >Nom </label> <br>
+        <input type="texte"  id="Name" name="user_name" placeholder="Entrez votre Nom" required>          
+        </div>
+
+        <div>
+        <label for="mail">Email</label> <br>
+        <input type="email"  id="Email" name=user_email placeholder="Entre votre email">
+        </div>
+
+        <div>
+            <label for="number">Indiquez Votre Satisfation au cours de 1 à 10</label> <br>
+            <input type="number" id="number" name="number" placeholder="numero de 1 à 10">
+        </div>
+        <div>
+            <label for="name">Qui est Votre Coach?</label> <br>
+            <select >
+                <option >Birame</option> 
+                <option>Malick</option>
+                <option>Mamadou</option>
+
+            </select>
+        </div> <br>
+        <div>
+            <label for="name" >A quel moment avez-vous cours?</label> <br>
+            <br>
+            <input type="radio">Matin <br>
+            <input type="radio" >Après-midi <br>
+            <input type="radio" >Soir
+        </div> <br>
+        <div>
+            <label for="name">Quels outils avez-vous rencontrés jusque là?</label> <br> (Selectionez tout ce qui s'applique) <br>
+            <br>
+            <input type="checkbox" >HTML <br>
+            <input type="checkbox" >CSS <br>
+            <input type="checkbox" >Javascript <br>
+            <input type="checkbox" >Editeur de texte <br>
+            <input type="checkbox" >Ligne de commande  
+        </div><br>
+        <div>
+            <label for="msg">Décrivez votre expérience jusque là</label>
+            <textarea name="user_message " id="msg" cols="30" rows="5">Décrivez votre experience ici... </textarea>
+        </div>
+        <div class="button">
+            <button type="submit">Envoyer</button>
+     
+        </div>
+        
+    </form>
+</body>
+</html>
